@@ -1,16 +1,16 @@
 % Feature Length
-LFW1 = abs( random( 'normal', 0.250, 0.07, 10, 1 ) )
-SFW1 = abs( random( 'normal', 0.125, 0.07, 10, 1 ) )
-SMS1 = abs( random( 'normal', 1.000, 0.07, 10, 1 ) )
-MS1  = abs( random( 'normal', 1.250, 0.07, 10, 1 ) )
-HN1  = abs( random( 'normal', 0.190, 0.07, 10, 1 ) )
+LFW1 = abs( random( 'normal', 0.250, 0.03, 10, 1 ) )
+SFW1 = abs( random( 'normal', 0.125, 0.03, 10, 1 ) )
+SMS1 = abs( random( 'normal', 1.000, 0.05, 10, 1 ) )
+MS1  = abs( random( 'normal', 1.250, 0.05, 10, 1 ) )
+HN1  = abs( random( 'normal', 0.190, 0.03, 10, 1 ) )
 
 % Feature Thickness
-LFW2 = abs( random( 'normal', 0.062, 0.05, 10, 1 ) )
-SFW2 = abs( random( 'normal', 0.030, 0.05, 10, 1 ) )
-SMS2 = abs( random( 'normal', 0.083, 0.05, 10, 1 ) )
-MS2  = abs( random( 'normal', 0.092, 0.05, 10, 1 ) )
-HN2  = abs( random( 'normal', 0.750, 0.05, 10, 1 ) )
+LFW2 = abs( random( 'normal', 0.042, 0.03, 10, 1 ) )
+SFW2 = abs( random( 'normal', 0.030, 0.03, 10, 1 ) )
+SMS2 = abs( random( 'normal', 0.083, 0.03, 10, 1 ) )
+MS2  = abs( random( 'normal', 0.092, 0.03, 10, 1 ) )
+HN2  = abs( random( 'normal', 0.105, 0.01, 10, 1 ) )
 
 M    = [LFW1 LFW2; SFW1 SFW2; SMS1 SMS2; MS1 MS2; HN1 HN2]
 
