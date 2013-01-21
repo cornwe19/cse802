@@ -1,9 +1,0 @@
-mu = [3,3];
-sigma = [1.0 0; 0 1.0];
-
-r = mvnrnd( mu, sigma, 100 );
-
-plot( r(:,1) , r(:,2), '*' );
-
-d = @(mu,sigma) mvnrnd( mu, sigma, 100 );
-
