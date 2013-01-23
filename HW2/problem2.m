@@ -8,7 +8,7 @@ Pw1 = 0.3;
 Pw2 = 0.7;
 
 maxLikelihoodX = @(x) -0.5 * x^2 + 2 * x - 2 - 0.5*log( det( sigma1 ) ) + 0.5*x^2 - x + 0.5 + 0.5*log( det( sigma2 ) );
-bayesX = @(x) -0.5 * x^2 + 2 * x - 2 - 0.5*log( det( sigma1 ) ) - log(Pw1) + 0.5*x^2 - x + 0.5 + 0.5*log( det( sigma2 ) ) + log(Pw2);
+bayesX = @(x) -0.5 * x^2 + 2 * x - 2 - 0.5*log( det( sigma1 ) ) + log(Pw1) + 0.5*x^2 - x + 0.5 + 0.5*log( det( sigma2 ) ) + log(Pw2);
 
 hold all;
 
