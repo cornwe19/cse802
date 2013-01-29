@@ -12,8 +12,8 @@ s2 = mvnrnd( mu2, sigma2, n2 );
 
 hold all;
 
-plot( s1(:,1), s1(:,2), 'r+' );
-plot( s2(:,1), s2(:,2), 'b+' );
+dataW1 = plot( s1(:,1), s1(:,2), 'r+' );
+dataW2 = plot( s2(:,1), s2(:,2), 'b+' );
 
 hold off;
 
